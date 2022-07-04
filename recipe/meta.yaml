@@ -1,5 +1,5 @@
 {% set name = "microfilm" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/microfilm-{{ version }}.tar.gz
-  sha256: 1f90651077b18f4618d2d1c93d0150b4b19a82401b7848f0a6f76de1174834dc
+  sha256: ad19cd7e14c28da7b000f8288fbb75f96b103cfca733c43abab738ab662c415b
 
 build:
   noarch: python
