@@ -17,23 +17,25 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.9
     - setuptools-scm
   run:
-    - aicsimageio
+    - cmap
     - h5py
     - imageio
-    - imageio-ffmpeg
-    - ipywidgets
-    - matplotlib-base
+    - matplotlib
     - matplotlib-scalebar
     - natsort
-    - nd2reader
     - numpy
-    - python >=3.7
     - scikit-image
     - tifffile
     - xarray
+    - python >=3.9
+    - bioio
+    - bioio-tifffile
+    - imageio-ffmpeg
+    - ipywidgets
+    - nd2reader
 
 test:
   imports:
